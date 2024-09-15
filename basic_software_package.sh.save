@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "Установка базовых программ"
+pacman -S spectacle gparted firefox zerotier filelight lutris scrcpy timeshift grub-customizer

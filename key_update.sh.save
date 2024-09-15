@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+echo "Начато обновление ключей"
+pacman-key --init               # Инициализация
+pacman-key --populate archlinux # Получить ключи из репозитория
+pacman-key --refresh-keys       # Проверить текущие ключи на актуальность
+pacman -Sy                      # Обновить ключи для всей системы
